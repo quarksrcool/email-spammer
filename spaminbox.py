@@ -32,7 +32,6 @@ try:
 
         server.sendmail(options.email, options.to, options.message)
         print("Mail sent")
-        server.quit()
 except KeyboardInterrupt:
     print("closing the program")
     server.quit()
